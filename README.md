@@ -2,7 +2,7 @@
 
 This project is an Arduino-based Gas and Flame Detection System implemented using FreeRTOS. It continuously monitors gas and flame levels using MQ2 and flame sensors and triggers a fan and LED as safety measures when dangerous conditions are detected.
 
- # Hardware Requirements:
+ ## Hardware Requirements:
 
 Arduino Board (e.g., Uno, Mega, Nano)
 
@@ -18,35 +18,10 @@ Jumper Wires
 
 Breadboard
 
-⚡ Pin Configuration:
 
-Component
 
-Arduino Pin
 
-MQ2 Analog
 
-A0
-
-MQ2 Digital
-
-D2
-
-Flame Analog
-
-A1
-
-Flame Digital
-
-D3
-
-Fan Control
-
-D9
-
-LED Indicator
-
-D10
 
 📋 Features:
 
