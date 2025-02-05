@@ -18,12 +18,7 @@ Jumper Wires
 
 Breadboard
 
-
-
-
-
-
-📋 Features:
+📋 ## Features:
 
 Real-time gas and flame monitoring
 
