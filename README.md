@@ -18,7 +18,7 @@ Jumper Wires
 
 Breadboard
 
-📋 ## Features:
+ ## Features:
 
 Real-time gas and flame monitoring
 
@@ -28,7 +28,7 @@ LED indicator for flame detection
 
 Task management using FreeRTOS with multitasking capability
 
-🚀 How It Works:
+## How It Works:
 
 GasMonitorTask: Reads MQ2 sensor data and sends gas levels to the queue.
 
@@ -38,7 +38,7 @@ FanControlTask: Activates the fan if gas levels exceed 600 (adjustable threshold
 
 LEDControlTask: Turns on the LED when flame levels exceed 1000 (adjustable threshold).
 
-⚙️ Setup and Upload:
+## Setup and Upload:
 
 Install FreeRTOS Library in Arduino IDE:
 
@@ -52,7 +52,7 @@ Upload the .ino file to your Arduino board.
 
 Open the Serial Monitor to observe real-time sensor data.
 
-📊 Sample Output (Serial Monitor):
+## Sample Output (Serial Monitor):
 
 Gas or Smoke Level: 450, Digital: 0
 Flame Level: 800, Digital: 0
@@ -61,13 +61,13 @@ No flame detected: LED OFF
 Gas detected: Fan ON
 Flame detected: LED ON
 
-📝 Adjustable Parameters:
+## Adjustable Parameters:
 
 Gas Threshold: if (gasLevel > 600) → Change 600 as needed.
 
 Flame Threshold: if (flameLevel > 1000) → Adjust 1000 as required.
 
-📚 License:
+## License:
 
 This project is open-source and free to use for educational purposes.
 
